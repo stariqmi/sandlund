@@ -1,4 +1,5 @@
 require 'mechanize'
+require_relative 'submission'
 
 mechanic = Mechanize.new	# Create new Mechanize object 
 # Navigate to the source main page
@@ -30,6 +31,8 @@ while true
 
 end
 
+xml_data = []
+
 base_url = "http://www.sec.gov" # Base Url to append to the relevant company links
 data_links.each do |dl|	# Loop through all the relevant links
 	link = base_url + dl["href"]	# Create full url using the relevant link href
@@ -38,7 +41,7 @@ data_links.each do |dl|	# Loop through all the relevant links
 	xml_doc = base_url + xml_link.href
 	puts "Parsing xml at #{xml_doc}"
 	xml = mechanic.get xml_doc
-	
+	edgar_sub = EdgarSubmission.new xml
 end
 
 
