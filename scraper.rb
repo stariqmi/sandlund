@@ -22,27 +22,48 @@ while true
 	nav_links = pagination.css("a") # Find all pagination links
 	next_page = nav_links[-1]	# Get the last pagination link on current page
 	if (next_page.text == "[NEXT]")	# If next page link exists
+		break if page_num == 1 # Code for TESTING, remove in production environment
 		page_num += 1
 		mechanic.get next_page["href"] # Get the next page's href
+
 	else	# End of pages
 		puts "All pages parsed ... "
 		break
 	end
-
 end
 
-xml_data = []
+submissions = []
 
 base_url = "http://www.sec.gov" # Base Url to append to the relevant company links
 data_links.each do |dl|	# Loop through all the relevant links
 	link = base_url + dl["href"]	# Create full url using the relevant link href
 	mechanic.get link	# Navigate to the newly created url
 	xml_link = mechanic.page.link_with(:text => /xml/) # Find the link with the text "xml" in it
-	xml_doc = base_url + xml_link.href
-	puts "Parsing xml at #{xml_doc}"
-	xml = mechanic.get xml_doc
-	edgar_sub = EdgarSubmission.new xml
+	xml_doc = base_url + xml_link.href	# Create full url to xml document
+	puts "Parsing xml at #{xml_doc}"	
+	raw_xml = mechanic.get xml_doc	# Navigate to xml document url
+	edgar_sub = EdgarSubmission.new raw_xml	# Create an EdgarSubmission object from the xml retrieved above
+	submissions << edgar_sub	# Add the object to submission array
 end
 
+# Result xml creation using Nokogiri
+builder = Nokogiri::XML::Builder.new do |xml|
+	xml.documentRoot {
+		submissions.each do |sub|
+			xml.edgarSubmission
+		end
+	}
+end
 
+nk_xml = Nokogiri::XML::Document.parse builder.to_xml
 
+index = 0
+nk_xml.xpath('//edgarSubmission').each do |sub|
+	sub.add_child submissions[index].filterPrimaryIssuer
+	sub.add_child submissions[index].filterOfferingData
+	index += 1
+end
+
+result = File.open("edgarSubmissions.xml", "w")
+result.puts nk_xml.to_xml
+result.close()
