@@ -7,7 +7,10 @@ mechanic.get "http://www.sec.gov/cgi-bin/srch-edgar?text=06c&first=2013&last=201
 puts mechanic.page.title
 
 page = mechanic.page	# Get the html of the main page as a Nokogiri object
+base_url = "http://www.sec.gov" # Base Url to append to the relevant company links
 data_links = []	# Holder for all relevant links
+source_links = []
+html_links = []
 page_num = 1
 links_file = File.open('links.txt', 'w')	# File that holds all company names and their links
 while true
@@ -39,23 +42,31 @@ links_file.close()
 
 submissions = []
 
-base_url = "http://www.sec.gov" # Base Url to append to the relevant company links
 data_links.each do |dl|	# Loop through all the relevant links
 	link = base_url + dl["href"]	# Create full url using the relevant link href
 	mechanic.get link	# Navigate to the newly created url
 	xml_link = mechanic.page.link_with(:text => /xml/) # Find the link with the text "xml" in it
+	html_link = mechanic.page.link_with(:text => /html/) # Find the link with the text "html" in it
 	xml_doc = base_url + xml_link.href	# Create full url to xml document
+	html_doc = base_url + html_link.href # Create full url to html document
+	html_links << html_doc
 	puts "Parsing xml at #{xml_doc}"	
 	raw_xml = mechanic.get xml_doc	# Navigate to xml document url
 	edgar_sub = EdgarSubmission.new raw_xml	# Create an EdgarSubmission object from the xml retrieved above
 	submissions << edgar_sub	# Add the object to submission array
+	source_links << link
 end
 
+index = 0
 # Result xml creation using Nokogiri
 builder = Nokogiri::XML::Builder.new do |xml|
 	xml.documentRoot {
 		submissions.each do |sub|
-			xml.edgarSubmission
+			xml.edgarSubmission {
+				xml.sourceLink source_links[index]
+				xml.htmlDocLink html_links[index]
+				index += 1
+			}
 		end
 	}
 end

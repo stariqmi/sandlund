@@ -18,9 +18,6 @@ class EdgarSubmission
 		schema_version = primary_issuer.at_xpath('//schemaVersion')
 		schema_version.remove unless schema_version.nil?
 
-		sub_type = primary_issuer.at_xpath('//submissionType')
-		sub_type.remove unless sub_type.nil?
-
 		test_or_live = primary_issuer.at_xpath('//testOrLive')
 		test_or_live.remove unless test_or_live.nil?
 
