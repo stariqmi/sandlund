@@ -14,33 +14,68 @@ class EdgarSubmission
 		current.puts primary_issuer
 		current.close()
 
-		primary_issuer.at_xpath('//schemaVersion').remove
-		primary_issuer.at_xpath('//submissionType').remove
-		primary_issuer.at_xpath('//testOrLive').remove
-		primary_issuer.at_xpath('//cik').remove
-		primary_issuer.at_xpath('//street1').remove
-		primary_issuer.at_xpath('//city').remove
-		primary_issuer.at_xpath('//stateOrCountryDescription').remove
-		primary_issuer.at_xpath('//issuerPhoneNumber').remove
-		primary_issuer.at_xpath('//jurisdictionOfInc').remove
-		primary_issuer.at_xpath('//issuerPreviousNameList').remove
-		primary_issuer.at_xpath('//edgarPreviousNameList').remove
+		# Safe removal
+		schema_version = primary_issuer.at_xpath('//schemaVersion')
+		schema_version.remove unless schema_version.nil?
+
+		sub_type = primary_issuer.at_xpath('//submissionType')
+		sub_type.remove unless sub_type.nil?
+
+		test_or_live = primary_issuer.at_xpath('//testOrLive')
+		test_or_live.remove unless test_or_live.nil?
+
+		street_1 = primary_issuer.at_xpath('//street1')
+		street_2 = primary_issuer.at_xpath('//street2')
+		street_1.remove unless street_1.nil?
+		street_2.remove unless street_2.nil?
+
+		cik = primary_issuer.at_xpath('//cik')
+		cik.remove unless cik.nil?
+
+		city = primary_issuer.at_xpath('//city')
+		city.remove unless city.nil?
+
+		scd = primary_issuer.at_xpath('//stateOrCountryDescription')
+		scd.remove unless scd.nil?
+
+		issuer_num = primary_issuer.at_xpath('//issuerPhoneNumber')
+		issuer_num.remove unless issuer_num.nil?
+
+		jurisdiction = primary_issuer.at_xpath('//jurisdictionOfInc')
+		jurisdiction.remove unless jurisdiction.nil?
+
+		ipnl = primary_issuer.at_xpath('//issuerPreviousNameList')
+		ipnl.remove unless ipnl.nil?
+		
+		epnl = primary_issuer.at_xpath('//edgarPreviousNameList')
+		epnl.remove unless epnl.nil?
+
 		primary_issuer
 	end
 
 	def filterOfferingData
 		offering_data = @xml.search '//offeringData'
-		offering_data.at_xpath('//businessCombinationTransaction').remove
-		offering_data.at_xpath('//salesCommissionsFindersFees').remove
-		offering_data.at_xpath('//useOfProceeds').remove
-		
+
+		# Safe removal
+		bct = offering_data.at_xpath('//businessCombinationTransaction')
+		bct.remove unless bct.nil?
+
+		scff = offering_data.at_xpath('//salesCommissionsFindersFees')
+		scff.remove unless scff.nil?
+
+		use_of_proceeds = offering_data.at_xpath('//useOfProceeds')
+		use_of_proceeds.remove unless use_of_proceeds.nil?
+
 		# Storing Required Data from <typesOfSecuritiesOffered>
 		is_other_type = offering_data.at_xpath('//typesOfSecuritiesOffered/isOtherType')
 		desc_other_type = offering_data.at_xpath('//typesOfSecuritiesOffered/descriptionOfOtherType')
 		is_pooled_invest_type = offering_data.at_xpath('//typesOfSecuritiesOffered/descriptionOfOtherType')
 
 		# Removeing Excess Data from <typesOfSecuritiesOffered>
-		offering_data.at_xpath('//typesOfSecuritiesOffered').children.remove
+		tso = offering_data.at_xpath('//typesOfSecuritiesOffered')
+		if not tso.nil?
+			tso.children.remove
+		end
 
 		# Adding required data back to <typesOfSecuritiesOffered>
 		offering_data.at_xpath('//typesOfSecuritiesOffered').add_child is_other_type unless is_other_type.nil?
@@ -48,12 +83,16 @@ class EdgarSubmission
 		offering_data.at_xpath('//typesOfSecuritiesOffered').add_child is_pooled_invest_type unless is_pooled_invest_type.nil?
 
 		# Filtering Data from <offeringSalesAmounts>
-		offering_data.at_xpath('//offeringSalesAmounts/clarificationOfResponse').remove
+		cos = offering_data.at_xpath('//offeringSalesAmounts/clarificationOfResponse')
+		cos.remove unless cos.nil?
 
 		# Filtering Data from <signatureBlock>
 		sign_date = offering_data.at_xpath('//signatureBlock/signature/signatureDate')
-		offering_data.at_xpath('//signatureBlock').children.remove
-		offering_data.at_xpath('//signatureBlock').add_child sign_date
+		sign_block = offering_data.at_xpath('//signatureBlock')
+		if not sign_block.nil?
+			sign_block.children.remove
+			offering_data.at_xpath('//signatureBlock').add_child sign_date
+		end
 		offering_data
 	end
 end
