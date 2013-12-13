@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 require 'mechanize'
 require_relative 'submission'
 
@@ -75,6 +77,7 @@ nk_xml = Nokogiri::XML::Document.parse builder.to_xml
 
 index = 0
 nk_xml.xpath('//edgarSubmission').each do |sub|
+	sub.add_child submissions[index].getSubmissionType
 	sub.add_child submissions[index].filterPrimaryIssuer
 	sub.add_child submissions[index].filterOfferingData
 	index += 1

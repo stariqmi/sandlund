@@ -7,6 +7,10 @@ class EdgarSubmission
 		@xml = xml
 	end
 
+	def getSubmissionType
+		@xml.search "//submissionType"
+	end
+
 	def filterPrimaryIssuer
 		primary_issuer = @xml.search '//primaryIssuer'
 		
