@@ -82,6 +82,7 @@ Bitcoin Investment Trust, /Archives/edgar/data/1588489/000158848913000001/000158
 Bitcoin Investment Trust, /Archives/edgar/data/1588489/000158848913000001/0001588489-13-000001-index.htm
 Black Hawk Royalty IV LP, /Archives/edgar/data/1590365/000159036513000001/0001590365-13-000001-index.htm
 Blackbird Financial Group, LLC, /Archives/edgar/data/1578461/000157846113000005/0001578461-13-000005-index.htm
+Blackburne & Brown Mortgage Fund II, L.P., /Archives/edgar/data/1594156/000159415613000001/0001594156-13-000001-index.htm
 BlackRock Brewers, /Archives/edgar/data/1592341/000159234113000001/0001592341-13-000001-index.htm
 BluBox Energy, Inc., /Archives/edgar/data/1573798/000157379813000002/0001573798-13-000002-index.htm
 Blue Bridge Investors, LP, /Archives/edgar/data/1588975/000158897513000001/0001588975-13-000001-index.htm
@@ -116,6 +117,7 @@ CHEERS WITH BEERS, INC., /Archives/edgar/data/1592718/000159271813000001/0001592
 Christoper-Diarte Properties LLC, /Archives/edgar/data/1588647/000151844013000002/0001518440-13-000002-index.htm
 Chromis Fiberoptics Inc, /Archives/edgar/data/1372088/000137208813000001/0001372088-13-000001-index.htm
 CleanBay Biofuels, Inc., /Archives/edgar/data/1588136/000158813613000001/0001588136-13-000001-index.htm
+Clear Energy Systems, Inc., /Archives/edgar/data/1480983/000148098313000006/0001480983-13-000006-index.htm
 Clear Energy Systems, Inc., /Archives/edgar/data/1480983/000148098313000005/0001480983-13-000005-index.htm
 ClearOne Funding LP, /Archives/edgar/data/1580184/000158018413000002/0001580184-13-000002-index.htm
 CLEARWATER OSPREY FUND, LP, /Archives/edgar/data/1590083/000159008313000001/0001590083-13-000001-index.htm
@@ -158,8 +160,8 @@ DragonTech International, LLC, /Archives/edgar/data/1587261/000158726113000002/0
 Driva Holdings Company, LLC, /Archives/edgar/data/1593019/000159276113000006/0001592761-13-000006-index.htm
 Duncan Park Holdings Corp, /Archives/edgar/data/1527587/000152758713000002/0001527587-13-000002-index.htm
 Eagle Bakken 1, LLC, /Archives/edgar/data/1528525/000152852513000002/0001528525-13-000002-index.htm
+Eagle Bakken 1, LLC, /Archives/edgar/data/1528525/000152852513000002/0001528525-13-000002-index.htm
 Eaglewood Income Fund I LP, /Archives/edgar/data/1564297/000156429713000001/0001564297-13-000001-index.htm
-Eaglewood Small Business Fund LP, /Archives/edgar/data/1587351/000158735113000002/0001587351-13-000002-index.htm
 Eaglewood Small Business Fund LP, /Archives/edgar/data/1587351/000158735113000002/0001587351-13-000002-index.htm
 Easton Exploration LP, /Archives/edgar/data/1574566/000157456613000003/0001574566-13-000003-index.htm
 Eaton Vance Floating Rate Completion Fund LLC, /Archives/edgar/data/1590645/000094039413001304/0000940394-13-001304-index.htm
@@ -239,8 +241,8 @@ Hillview Special Opportunities Fund, LP, /Archives/edgar/data/1175850/0001175850
 Hollywood Indie Studio Corp, /Archives/edgar/data/1591826/000159182613000001/0001591826-13-000001-index.htm
 Horizon Tower Ltd Partnership-II, /Archives/edgar/data/1587255/000158725513000002/0001587255-13-000002-index.htm
 Horizon Tower Ltd Partnership-II, /Archives/edgar/data/1587255/000158725513000001/0001587255-13-000001-index.htm
+Horizon Tower Ltd Partnership-II, /Archives/edgar/data/1587255/000158725513000001/0001587255-13-000001-index.htm
 HP SNF OPCO, LLC, /Archives/edgar/data/1587854/000158783813000001/0001587838-13-000001-index.htm
-HYBRID CAPITAL GROUP, LLC, /Archives/edgar/data/1589934/000158993413000003/0001589934-13-000003-index.htm
 HYBRID CAPITAL GROUP, LLC, /Archives/edgar/data/1589934/000158993413000003/0001589934-13-000003-index.htm
 hyperfund, Inc., /Archives/edgar/data/1590237/000159023713000001/0001590237-13-000001-index.htm
 Idaho North Resources Corp., /Archives/edgar/data/1543395/000100201413000421/0001002014-13-000421-index.htm
@@ -267,6 +269,9 @@ Javelin Capital Markets, LLC, /Archives/edgar/data/1543398/000154339813000005/00
 JEFFERSON CITY RETIREMENT, L.L.C., /Archives/edgar/data/1591513/000159151313000001/0001591513-13-000001-index.htm
 Jehovah & Jesus Independent Dance Monastery Towers Church Corp, /Archives/edgar/data/1590212/000159021213000001/0001590212-13-000001-index.htm
 JIWIRE INC, /Archives/edgar/data/1271590/000127159013000002/0001271590-13-000002-index.htm
+John Hancock Variable Account PPM1-R, /Archives/edgar/data/1458492/000118143113062539/0001181431-13-062539-index.htm
+John Hancock Variable Account PPM2-K, /Archives/edgar/data/1458491/000118143113062537/0001181431-13-062537-index.htm
+JOHN HANCOCK VARIABLE LIFE ACCOUNT PPM2-3, /Archives/edgar/data/1143982/000118143113062570/0001181431-13-062570-index.htm
 Johnny Kyger Golf LLC, /Archives/edgar/data/1590720/000159072013000001/0001590720-13-000001-index.htm
 Joule Assets, Inc., /Archives/edgar/data/1593466/000159346613000001/0001593466-13-000001-index.htm
 JPB Capital Partners III, LP, /Archives/edgar/data/1587163/000158716313000002/0001587163-13-000002-index.htm
@@ -279,6 +284,7 @@ Kudzu Capital Growth, LP, /Archives/edgar/data/1517353/000151735313000002/000151
 Kverve Eindom, LLC, /Archives/edgar/data/1593022/000159276113000004/0001592761-13-000004-index.htm
 Kytosan USA, LLC, /Archives/edgar/data/1586199/000158619913000002/0001586199-13-000002-index.htm
 Landscape High Leverage Fund, LP, /Archives/edgar/data/1545055/000154505513000001/0001545055-13-000001-index.htm
+Larson Capital Fund I, L.P., /Archives/edgar/data/1588181/000158818113000004/0001588181-13-000004-index.htm
 Larson Capital Fund I, L.P., /Archives/edgar/data/1588181/000158818113000003/0001588181-13-000003-index.htm
 Larson Capital Fund I, L.P., /Archives/edgar/data/1588181/000158818113000001/0001588181-13-000001-index.htm
 Launderette Cafe LLC, /Archives/edgar/data/1590999/000159099913000002/0001590999-13-000002-index.htm
@@ -302,6 +308,7 @@ MEDBUILDING LTD, /Archives/edgar/data/1169328/000116932813000004/0001169328-13-0
 Mediafeedia, Inc., /Archives/edgar/data/1593734/000159373413000001/0001593734-13-000001-index.htm
 Metis Legacy Capital Income Fund I, LP, /Archives/edgar/data/1575354/000157535413000002/0001575354-13-000002-index.htm
 MetJet Madison, Inc., /Archives/edgar/data/1587819/000158781913000001/0001587819-13-000001-index.htm
+METROPOLITAN LIFE INSURANCE CO, /Archives/edgar/data/937834/000093783413000005/0000937834-13-000005-index.htm
 METROPOLITAN LIFE INSURANCE CO, /Archives/edgar/data/937834/000093783413000004/0000937834-13-000004-index.htm
 Microgen Systems, Inc.-DE, /Archives/edgar/data/1590838/000159083813000001/0001590838-13-000001-index.htm
 Mid-Hudson Region Rural Broadband Company, Inc., /Archives/edgar/data/1579586/000157958613000008/0001579586-13-000008-index.htm
@@ -315,13 +322,13 @@ Moon Capital Management, LLC, /Archives/edgar/data/1410588/000141058813000003/00
 MOTOZUMA, LLC, /Archives/edgar/data/1585692/000158569213000001/0001585692-13-000001-index.htm
 Mountain Brook Partners, LP, /Archives/edgar/data/1593818/000159381813000001/0001593818-13-000001-index.htm
 MT Center Songdo, LLC, /Archives/edgar/data/1592802/000159280213000001/0001592802-13-000001-index.htm
+MT Center Songdo, LLC, /Archives/edgar/data/1592802/000159280213000001/0001592802-13-000001-index.htm
 Mud on the Barbee, Inc., /Archives/edgar/data/1589312/000158931213000001/0001589312-13-000001-index.htm
 Muehler International Corp, /Archives/edgar/data/1593018/000159301813000001/0001593018-13-000001-index.htm
 Murvin & Meier Oil Co, /Archives/edgar/data/1328334/000132833413000008/0001328334-13-000008-index.htm
 MV Startup Fund IV Series 2, /Archives/edgar/data/1586370/000158637013000002/0001586370-13-000002-index.htm
 MVB FINANCIAL CORP, /Archives/edgar/data/1277902/000127790213000005/0001277902-13-000005-index.htm
 MVB FINANCIAL CORP, /Archives/edgar/data/1277902/000127790213000004/0001277902-13-000004-index.htm
-MWF Financial Ltd, /Archives/edgar/data/1501059/000150105913000001/0001501059-13-000001-index.htm
 MWF Financial Ltd, /Archives/edgar/data/1501059/000150105913000001/0001501059-13-000001-index.htm
 My Senior Portal, Inc., /Archives/edgar/data/1588025/000158802513000001/0001588025-13-000001-index.htm
 My Starter Home, Inc., /Archives/edgar/data/1550207/000155020713000002/0001550207-13-000002-index.htm
@@ -396,13 +403,13 @@ Pzena Emerging Markets Focused Value Fund (GT) a separate investment fund of Pze
 QMaxx Products Group, LLC, /Archives/edgar/data/1587483/000158748313000001/0001587483-13-000001-index.htm
 Quality Real Estate LLC, /Archives/edgar/data/1590521/000159052113000001/0001590521-13-000001-index.htm
 Quantum Success Strategies, LLC, /Archives/edgar/data/1591888/000107997313000665/0001079973-13-000665-index.htm
+Quantum Success Strategies, LLC, /Archives/edgar/data/1591888/000107997313000665/0001079973-13-000665-index.htm
 Quibble Genomics Institute, /Archives/edgar/data/1592794/000159279413000001/0001592794-13-000001-index.htm
 R. A. Knight, LLC, /Archives/edgar/data/1589241/000158924113000002/0001589241-13-000002-index.htm
 RanBill Music, Inc., /Archives/edgar/data/1584954/000158495413000002/0001584954-13-000002-index.htm
 RCH Mortgage Fund VI Investors, LP, /Archives/edgar/data/1589609/000158960913000001/0001589609-13-000001-index.htm
 RCN CAPITAL, LLC, /Archives/edgar/data/1587290/000158729013000004/0001587290-13-000004-index.htm
 RD Media LLC, /Archives/edgar/data/1588113/000158811313000003/0001588113-13-000003-index.htm
-Red Duck Foods, Inc., /Archives/edgar/data/1590650/000159065013000001/0001590650-13-000001-index.htm
 Red Duck Foods, Inc., /Archives/edgar/data/1590650/000159065013000001/0001590650-13-000001-index.htm
 Red Shark, LLC, /Archives/edgar/data/1585044/000158504413000002/0001585044-13-000002-index.htm
 RegBinder, Inc., /Archives/edgar/data/1581876/000158187613000003/0001581876-13-000003-index.htm
@@ -443,6 +450,7 @@ Silver Creek Credit Opportunities IV Fund A, L.P., /Archives/edgar/data/1587818/
 Simplex Value Up Trust, /Archives/edgar/data/1562445/000156244513000001/0001562445-13-000001-index.htm
 Simply Gum, Inc., /Archives/edgar/data/1589895/000158989513000001/0001589895-13-000001-index.htm
 Solari Global, LLC, /Archives/edgar/data/1552414/000155241413000001/0001552414-13-000001-index.htm
+Solaris Power Cells, Inc., /Archives/edgar/data/1411730/000108503713000192/0001085037-13-000192-index.htm
 Solopower Korea, Inc., /Archives/edgar/data/1592791/000159279113000001/0001592791-13-000001-index.htm
 SOS Africa, Inc., /Archives/edgar/data/1592775/000159301813000003/0001593018-13-000003-index.htm
 Southern Energy Group Preferred Partner II, LP, /Archives/edgar/data/1593844/000159384413000002/0001593844-13-000002-index.htm
@@ -476,6 +484,7 @@ Strategic Preservation Fund I LP, /Archives/edgar/data/1588351/00009358361300049
 Strongbrook Direct, LLC, /Archives/edgar/data/1562845/000156284513000001/0001562845-13-000001-index.htm
 Student Loan Strategies, LLC, /Archives/edgar/data/1582931/000158293113000001/0001582931-13-000001-index.htm
 Student Loan Strategies, LLC, /Archives/edgar/data/1582931/000158293113000002/0001582931-13-000002-index.htm
+Student Loan Strategies, LLC, /Archives/edgar/data/1582931/000158293113000002/0001582931-13-000002-index.htm
 Substrate, Inc., /Archives/edgar/data/1590428/000159042813000001/0001590428-13-000001-index.htm
 Sulpice Coach Investissement, /Archives/edgar/data/1592774/000159301813000004/0001593018-13-000004-index.htm
 SVN DALLAS POOL A SOLE MEMBER LLC, /Archives/edgar/data/1431950/000143195013000002/0001431950-13-000002-index.htm
@@ -483,7 +492,6 @@ T2 ASSET OPPORTUNITY FUND III, LP, /Archives/edgar/data/1588824/0000913849130002
 Tansna Therapeutics, Inc., /Archives/edgar/data/1587426/000158742613000001/0001587426-13-000001-index.htm
 Taurus CD 169 NY Residential Aggregation LP, /Archives/edgar/data/1590643/000159064313000001/0001590643-13-000001-index.htm
 Taurus Vista Center LP, /Archives/edgar/data/1590651/000159065113000001/0001590651-13-000001-index.htm
-Techneed, Inc, /Archives/edgar/data/1589652/000158965213000002/0001589652-13-000002-index.htm
 Techneed, Inc, /Archives/edgar/data/1589652/000158965213000002/0001589652-13-000002-index.htm
 Technical Provisions, LLC, /Archives/edgar/data/1550821/000155082113000001/0001550821-13-000001-index.htm
 TechShop, /Archives/edgar/data/1505247/000150524713000002/0001505247-13-000002-index.htm
@@ -514,6 +522,7 @@ TSG - Timber Oaks, L.P., /Archives/edgar/data/1587416/000158741613000002/0001587
 TSG - Timber Oaks, L.P., /Archives/edgar/data/1587416/000158741613000001/0001587416-13-000001-index.htm
 TURBODYNE TECHNOLOGIES, INC, /Archives/edgar/data/1022097/000090901213000458/0000909012-13-000458-index.htm
 U S PRECIOUS METALS INC, /Archives/edgar/data/1286181/000102022913000031/0001020229-13-000031-index.htm
+U.S. Food Fund, LLC, /Archives/edgar/data/1589198/000158919813000005/0001589198-13-000005-index.htm
 U.S. Well Services, LLC, /Archives/edgar/data/1543450/000154345013000067/0001543450-13-000067-index.htm
 UDF Entity Manager, LLC, /Archives/edgar/data/1587689/000158783813000002/0001587838-13-000002-index.htm
 USW Financing Corp., /Archives/edgar/data/1543660/000154345013000067/0001543450-13-000067-index.htm

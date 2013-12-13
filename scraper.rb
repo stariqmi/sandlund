@@ -1,4 +1,7 @@
+#!/usr/bin/ruby
+
 require 'mechanize'
+require 'yaml'
 require_relative 'submission'
 
 mechanic = Mechanize.new	# Create new Mechanize object 
@@ -13,8 +16,11 @@ data_links = []	# Holder for all relevant links
 source_links = []
 html_links = []
 sub_types = []
+companies = []
 page_num = 1
+
 links_file = File.open('links.txt', 'w')	# File that holds all company names and their links
+
 while true
 	puts "Parsing #{page_num}th page for company links"
 	main_table = mechanic.page.search('/html/body/div[1]/table')	# Get the specific table
@@ -43,6 +49,7 @@ end
 links_file.close()
 
 submissions = []
+existing_companies = YAML.load(File.open("companies.yml"))
 
 data_links.each do |dl|	# Loop through all the relevant links
 	link = base_url + dl["href"]	# Create full url using the relevant link href
@@ -56,9 +63,19 @@ data_links.each do |dl|	# Loop through all the relevant links
 	raw_xml = mechanic.get xml_doc	# Navigate to xml document url
 	sub_types << raw_xml.search("//submissionType")
 	edgar_sub = EdgarSubmission.new raw_xml	# Create an EdgarSubmission object from the xml retrieved above
-	submissions << edgar_sub	# Add the object to submission array
-	source_links << link
+	# Check if Company is not already in the yaml document (Prevents duplicates)
+	if not existing_companies.include? edgar_sub.name
+		puts "New Company: #{edgar_sub.name}"
+		existing_companies << edgar_sub.name
+		submissions << edgar_sub	# Add the object to submission array
+		source_links << link
+	end
 end
+
+comp_file = File.open("companies.yml", "w")
+comp_file.write(existing_companies.to_yaml)
+comp_file.close
+
 
 index = 0
 # Result xml creation using Nokogiri
@@ -79,6 +96,7 @@ nk_xml = Nokogiri::XML::Document.parse builder.to_xml
 
 index = 0
 nk_xml.xpath('//edgarSubmission').each do |sub|
+	sub.add_child submissions[index].getSubmissionType
 	sub.add_child submissions[index].filterPrimaryIssuer
 	sub.add_child submissions[index].filterOfferingData
 	index += 1

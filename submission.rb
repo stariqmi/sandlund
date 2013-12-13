@@ -2,9 +2,15 @@ require 'mechanize'
 
 class EdgarSubmission
 
+	attr_reader :name
 	
 	def initialize xml
 		@xml = xml
+		@name = xml.search("//primaryIssuer/entityName")[0].content
+	end
+
+	def getSubmissionType
+		@xml.search "//submissionType"
 	end
 
 	def filterPrimaryIssuer
