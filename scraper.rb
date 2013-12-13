@@ -2,6 +2,7 @@ require 'mechanize'
 require_relative 'submission'
 
 mechanic = Mechanize.new	# Create new Mechanize object 
+mechanic.set_proxy 'proxy', 8080, "i840192", "hckg:stm180392"
 # Navigate to the source main page
 mechanic.get "http://www.sec.gov/cgi-bin/srch-edgar?text=06c&first=2013&last=2013"
 puts mechanic.page.title
@@ -11,6 +12,7 @@ base_url = "http://www.sec.gov" # Base Url to append to the relevant company lin
 data_links = []	# Holder for all relevant links
 source_links = []
 html_links = []
+sub_types = []
 page_num = 1
 links_file = File.open('links.txt', 'w')	# File that holds all company names and their links
 while true
@@ -52,6 +54,7 @@ data_links.each do |dl|	# Loop through all the relevant links
 	html_links << html_doc
 	puts "Parsing xml at #{xml_doc}"	
 	raw_xml = mechanic.get xml_doc	# Navigate to xml document url
+	sub_types << raw_xml.search("//submissionType")
 	edgar_sub = EdgarSubmission.new raw_xml	# Create an EdgarSubmission object from the xml retrieved above
 	submissions << edgar_sub	# Add the object to submission array
 	source_links << link
@@ -63,6 +66,7 @@ builder = Nokogiri::XML::Builder.new do |xml|
 	xml.documentRoot {
 		submissions.each do |sub|
 			xml.edgarSubmission {
+				xml.submissionType sub_types[index][0].content
 				xml.sourceLink source_links[index]
 				xml.htmlDocLink html_links[index]
 				index += 1
