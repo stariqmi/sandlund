@@ -4,7 +4,7 @@ var Deferred = require('JQDeferred');
 var promises = [];
  
 var firebase = new
-Firebase('http://sandmansubmissions.firebaseio.com/submissions');
+Firebase('http://edgarsubmissions.firebaseio.com/submissions');
  
 data = fs.readFileSync('json.txt');
 var array = data.toString().split("\n");
