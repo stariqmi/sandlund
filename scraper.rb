@@ -1,11 +1,10 @@
-#!/usr/bin/ruby
+#!/Users/salmantariqmirza/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
 
 require 'mechanize'
 require 'yaml'
 require_relative 'submission'
 
 mechanic = Mechanize.new	# Create new Mechanize object 
-mechanic.set_proxy 'proxy', 8080, "i840192", "hckg:stm180392"
 # Navigate to the source main page
 mechanic.get "http://www.sec.gov/cgi-bin/srch-edgar?text=06c&first=2013&last=2013"
 puts mechanic.page.title
@@ -29,7 +28,7 @@ while true
 		# If it is not a link to the company info as html or txt
 		if not (link.text == "[html]" || link.text == "[text]")
 			data_links << link 	# Add the link to above holder(data_links)
-			links_file.puts "#{link.text}, #{link['href']}" # Write to links.txt
+			links_file.puts "#{link.text} --- #{base_url + link['href']}" # Write to links.txt
 		end
 	end
 
@@ -49,24 +48,24 @@ end
 links_file.close()
 
 submissions = []
-existing_companies = YAML.load(File.open("companies.yml"))
+existing_companies = YAML.load(File.open("companies.yml")) || []
 
 data_links.each do |dl|	# Loop through all the relevant links
-	link = base_url + dl["href"]	# Create full url using the relevant link href
-	mechanic.get link	# Navigate to the newly created url
-	xml_link = mechanic.page.link_with(:text => /xml/) # Find the link with the text "xml" in it
-	html_link = mechanic.page.link_with(:text => /html/) # Find the link with the text "html" in it
-	xml_doc = base_url + xml_link.href	# Create full url to xml document
-	html_doc = base_url + html_link.href # Create full url to html document
-	html_links << html_doc
-	puts "Parsing xml at #{xml_doc}"	
-	raw_xml = mechanic.get xml_doc	# Navigate to xml document url
-	sub_types << raw_xml.search("//submissionType")
-	edgar_sub = EdgarSubmission.new raw_xml	# Create an EdgarSubmission object from the xml retrieved above
 	# Check if Company is not already in the yaml document (Prevents duplicates)
-	if not existing_companies.include? edgar_sub.name
-		puts "New Company: #{edgar_sub.name}"
-		existing_companies << edgar_sub.name
+	if not existing_companies.include? dl.text
+		puts "New Company: #{dl.text}"
+		link = base_url + dl["href"]	# Create full url using the relevant link href
+		mechanic.get link	# Navigate to the newly created url
+		xml_link = mechanic.page.link_with(:text => /xml/) # Find the link with the text "xml" in it
+		html_link = mechanic.page.link_with(:text => /html/) # Find the link with the text "html" in it
+		xml_doc = base_url + xml_link.href	# Create full url to xml document
+		html_doc = base_url + html_link.href # Create full url to html document
+		html_links << html_doc
+		puts "Parsing xml at #{xml_doc}"	
+		raw_xml = mechanic.get xml_doc	# Navigate to xml document url
+		sub_types << raw_xml.search("//submissionType")
+		edgar_sub = EdgarSubmission.new raw_xml	# Create an EdgarSubmission object from the xml retrieved above
+		existing_companies << dl.text
 		submissions << edgar_sub	# Add the object to submission array
 		source_links << link
 	end

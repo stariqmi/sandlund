@@ -1,3 +1,5 @@
+#!/Users/salmantariqmirza/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
+
 require 'nokogiri'
 require 'active_support/all'
 
