@@ -1,5 +1,4 @@
-#!/Users/salmantariqmirza/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
-
+# Import required modules
 require 'mechanize'
 require 'yaml'
 require_relative 'submission'
@@ -12,10 +11,10 @@ puts mechanic.page.title
 page = mechanic.page	# Get the html of the main page as a Nokogiri object
 base_url = "http://www.sec.gov" # Base Url to append to the relevant company links
 data_links = []	# Holder for all relevant links
-source_links = []
-html_links = []
-sub_types = []
-companies = []
+source_links = []	# Holder for all source links
+html_links = []	# Holder for all html links
+sub_types = []	
+companies = []	# Holder for all companies scraped
 page_num = 1
 
 links_file = File.open('links.txt', 'w')	# File that holds all company names and their links
@@ -48,6 +47,7 @@ end
 links_file.close()
 
 submissions = []
+# Export companies from YAML as an array
 existing_companies = YAML.load(File.open("companies.yml")) || []
 
 data_links.each do |dl|	# Loop through all the relevant links
@@ -60,17 +60,18 @@ data_links.each do |dl|	# Loop through all the relevant links
 		html_link = mechanic.page.link_with(:text => /html/) # Find the link with the text "html" in it
 		xml_doc = base_url + xml_link.href	# Create full url to xml document
 		html_doc = base_url + html_link.href # Create full url to html document
-		html_links << html_doc
+		html_links << html_doc # Add link to html_links holder
 		puts "Parsing xml at #{xml_doc}"	
 		raw_xml = mechanic.get xml_doc	# Navigate to xml document url
 		sub_types << raw_xml.search("//submissionType")
 		edgar_sub = EdgarSubmission.new raw_xml	# Create an EdgarSubmission object from the xml retrieved above
-		existing_companies << dl.text
+		existing_companies << dl.text	# Add link text(company name) to existing companies
 		submissions << edgar_sub	# Add the object to submission array
-		source_links << link
+		source_links << link # Add link to source_links holder
 	end
 end
 
+# Export all exisiting companies to YAML document
 comp_file = File.open("companies.yml", "w")
 comp_file.write(existing_companies.to_yaml)
 comp_file.close
@@ -81,26 +82,31 @@ index = 0
 builder = Nokogiri::XML::Builder.new do |xml|
 	xml.documentRoot {
 		submissions.each do |sub|
+			# Create edgarSubmission tag
 			xml.edgarSubmission {
-				xml.submissionType sub_types[index][0].content
-				xml.sourceLink source_links[index]
-				xml.htmlDocLink html_links[index]
+				xml.submissionType sub_types[index][0].content	# From sub_types
+				xml.sourceLink source_links[index]				# From source_links
+				xml.htmlDocLink html_links[index]				# From html_links
 				index += 1
 			}
 		end
 	}
 end
 
+# Parse above generated xml
 nk_xml = Nokogiri::XML::Document.parse builder.to_xml
 
 index = 0
+
+# For each edgarSubmission tag
 nk_xml.xpath('//edgarSubmission').each do |sub|
-	sub.add_child submissions[index].getSubmissionType
-	sub.add_child submissions[index].filterPrimaryIssuer
-	sub.add_child submissions[index].filterOfferingData
+	sub.add_child submissions[index].getSubmissionType		# Add submissionType as child tag
+	sub.add_child submissions[index].filterPrimaryIssuer	# Add primaryIssue as child tag
+	sub.add_child submissions[index].filterOfferingData		# Add offeringData as child tag
 	index += 1
 end
 
+# Write xml to XML document as result
 result = File.open("edgarSubmissions.xml", "w")
 result.puts nk_xml.to_xml
 result.close()
