@@ -3,7 +3,12 @@ require 'mechanize'
 require 'yaml'
 require_relative 'submission'
 
-mechanic = Mechanize.new	# Create new Mechanize object 
+mechanic = Mechanize.new	# Create new Mechanize object
+# Proxy
+mechanic = Mechanize.new do|a|
+  a.set_proxy('proxy', 8080, 'i840192', 'hckg:stm18092')
+  a.user_agent_alias = "Windows IE 6"
+end
 # Navigate to the source main page
 mechanic.get "http://www.sec.gov/cgi-bin/srch-edgar?text=06c&first=2013&last=2013"
 puts mechanic.page.title
@@ -110,3 +115,13 @@ end
 result = File.open("edgarSubmissions.xml", "w")
 result.puts nk_xml.to_xml
 result.close()
+
+# Compiling master list
+master_xml = Nokogiri::XML::Document.parse File.open("master.xml")
+master_root = master_xml.root
+nk_xml.xpath('//edgarSubmission').each do |sub|
+	master_root.add_child sub
+end
+master = File.open("master.xml", "w")
+master.puts master_xml.to_xml
+master.close()
