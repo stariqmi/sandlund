@@ -47,7 +47,7 @@ class EdgarSubmission
 		jurisdiction = primary_issuer.at_xpath('//jurisdictionOfInc')
 		jurisdiction.remove unless jurisdiction.nil?
 
-		ipnl = primary_issuer.at_xpath('//issuerPreviousNameList')
+		ipnl = primary_issuer.at_xpath('//iscsuerPreviousNameList')
 		ipnl.remove unless ipnl.nil?
 		
 		epnl = primary_issuer.at_xpath('//edgarPreviousNameList')
