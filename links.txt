@@ -1,3 +1,4 @@
+2011 Mieka/Jefferson-Cattaraugus Oil & Gas Project A --- http://www.sec.gov/Archives/edgar/data/1591572/000159157213000001/0001591572-13-000001-index.htm
 2013 Bayou City Mississippian Development Program, L.P. --- http://www.sec.gov/Archives/edgar/data/1587276/000158727613000002/0001587276-13-000002-index.htm
 212 Funding, LLC --- http://www.sec.gov/Archives/edgar/data/1571758/000157175813000003/0001571758-13-000003-index.htm
 3VR Security Inc --- http://www.sec.gov/Archives/edgar/data/1350856/000135085613000002/0001350856-13-000002-index.htm
@@ -78,7 +79,7 @@ BIG TREE CAPITAL EMERGING MARKETS FUND, L.P. --- http://www.sec.gov/Archives/edg
 BIG TREE CAPITAL OPPORTUNITY FUND I, L.P. --- http://www.sec.gov/Archives/edgar/data/1582911/000158291113000001/0001582911-13-000001-index.htm
 Biggs Capital Fund, LP --- http://www.sec.gov/Archives/edgar/data/1588993/000158899313000001/0001588993-13-000001-index.htm
 Biocycle, Inc. --- http://www.sec.gov/Archives/edgar/data/1561260/000156126013000001/0001561260-13-000001-index.htm
-Bitcoin Investment Trust --- http://www.sec.gov/Archives/edgar/data/1588489/000158848913000001/0001588489-13-000001-index.htm
+Biocycle, Inc. --- http://www.sec.gov/Archives/edgar/data/1561260/000156126013000001/0001561260-13-000001-index.htm
 Bitcoin Investment Trust --- http://www.sec.gov/Archives/edgar/data/1588489/000158848913000001/0001588489-13-000001-index.htm
 Black Hawk Royalty IV LP --- http://www.sec.gov/Archives/edgar/data/1590365/000159036513000001/0001590365-13-000001-index.htm
 Blackbird Financial Group, LLC --- http://www.sec.gov/Archives/edgar/data/1578461/000157846113000005/0001578461-13-000005-index.htm
@@ -159,7 +160,7 @@ DragonTech International, LLC --- http://www.sec.gov/Archives/edgar/data/1587261
 DragonTech International, LLC --- http://www.sec.gov/Archives/edgar/data/1587261/000158726113000002/0001587261-13-000002-index.htm
 Driva Holdings Company, LLC --- http://www.sec.gov/Archives/edgar/data/1593019/000159276113000006/0001592761-13-000006-index.htm
 Duncan Park Holdings Corp --- http://www.sec.gov/Archives/edgar/data/1527587/000152758713000002/0001527587-13-000002-index.htm
-Eagle Bakken 1, LLC --- http://www.sec.gov/Archives/edgar/data/1528525/000152852513000002/0001528525-13-000002-index.htm
+Duncan Park Holdings Corp --- http://www.sec.gov/Archives/edgar/data/1527587/000152758713000002/0001527587-13-000002-index.htm
 Eagle Bakken 1, LLC --- http://www.sec.gov/Archives/edgar/data/1528525/000152852513000002/0001528525-13-000002-index.htm
 Eaglewood Income Fund I LP --- http://www.sec.gov/Archives/edgar/data/1564297/000156429713000001/0001564297-13-000001-index.htm
 Eaglewood Small Business Fund LP --- http://www.sec.gov/Archives/edgar/data/1587351/000158735113000002/0001587351-13-000002-index.htm
@@ -215,6 +216,7 @@ Global Marine Exploration, Inc. --- http://www.sec.gov/Archives/edgar/data/15422
 GLOBAL PHOTONIC ENERGY CORP --- http://www.sec.gov/Archives/edgar/data/1025462/000102546213000005/0001025462-13-000005-index.htm
 GMEDIX, Inc. --- http://www.sec.gov/Archives/edgar/data/1588318/000158831813000002/0001588318-13-000002-index.htm
 GoCarrot Inc. --- http://www.sec.gov/Archives/edgar/data/1576004/000157600413000002/0001576004-13-000002-index.htm
+Gold Reef Mining, LLC --- http://www.sec.gov/Archives/edgar/data/1594231/000159423113000001/0001594231-13-000001-index.htm
 Gold Street Capital Fund, LP --- http://www.sec.gov/Archives/edgar/data/1587572/000158757213000001/0001587572-13-000001-index.htm
 Gold Surgical Products VIII, LLC --- http://www.sec.gov/Archives/edgar/data/1593370/000159337013000001/0001593370-13-000001-index.htm
 Goldman Sachs Social Impact Fund, L.P. --- http://www.sec.gov/Archives/edgar/data/1584985/000114036113037430/0001140361-13-037430-index.htm
@@ -239,8 +241,8 @@ HILLVIEW GLOBAL ALPHA FUND OFFSHORE LTD --- http://www.sec.gov/Archives/edgar/da
 Hillview Special Opportunities Fund, LP --- http://www.sec.gov/Archives/edgar/data/1175850/000117585013000001/0001175850-13-000001-index.htm
 Hillview Special Opportunities Fund, LP --- http://www.sec.gov/Archives/edgar/data/1175850/000117585013000002/0001175850-13-000002-index.htm
 Hollywood Indie Studio Corp --- http://www.sec.gov/Archives/edgar/data/1591826/000159182613000001/0001591826-13-000001-index.htm
+Hollywood Indie Studio Corp --- http://www.sec.gov/Archives/edgar/data/1591826/000159182613000001/0001591826-13-000001-index.htm
 Horizon Tower Ltd Partnership-II --- http://www.sec.gov/Archives/edgar/data/1587255/000158725513000002/0001587255-13-000002-index.htm
-Horizon Tower Ltd Partnership-II --- http://www.sec.gov/Archives/edgar/data/1587255/000158725513000001/0001587255-13-000001-index.htm
 Horizon Tower Ltd Partnership-II --- http://www.sec.gov/Archives/edgar/data/1587255/000158725513000001/0001587255-13-000001-index.htm
 HP SNF OPCO, LLC --- http://www.sec.gov/Archives/edgar/data/1587854/000158783813000001/0001587838-13-000001-index.htm
 HYBRID CAPITAL GROUP, LLC --- http://www.sec.gov/Archives/edgar/data/1589934/000158993413000003/0001589934-13-000003-index.htm
@@ -281,6 +283,7 @@ JPB Capital Partners III, LP --- http://www.sec.gov/Archives/edgar/data/1587163/
 Juneau Biosciences, LLC --- http://www.sec.gov/Archives/edgar/data/1400105/000140010513000001/0001400105-13-000001-index.htm
 Juniper Garland, LLC --- http://www.sec.gov/Archives/edgar/data/1587333/000114036113036780/0001140361-13-036780-index.htm
 Just Greens, LLC --- http://www.sec.gov/Archives/edgar/data/1590624/000159062413000001/0001590624-13-000001-index.htm
+KGI Rhino #1 Joint Venture --- http://www.sec.gov/Archives/edgar/data/1593376/000159337613000001/0001593376-13-000001-index.htm
 KGR SERIES II, LLC --- http://www.sec.gov/Archives/edgar/data/1529717/000152971713000002/0001529717-13-000002-index.htm
 Kings & Associates Management LLC --- http://www.sec.gov/Archives/edgar/data/1587705/000158770513000001/0001587705-13-000001-index.htm
 Kudzu Capital Growth, LP --- http://www.sec.gov/Archives/edgar/data/1517353/000151735313000002/0001517353-13-000002-index.htm
@@ -319,10 +322,11 @@ Militello Capital, LLC --- http://www.sec.gov/Archives/edgar/data/1570873/000157
 Mill Creek Life Sciences, LLC --- http://www.sec.gov/Archives/edgar/data/1529932/000152993213000001/0001529932-13-000001-index.htm
 Mind Navigator --- http://www.sec.gov/Archives/edgar/data/1587708/000158770813000001/0001587708-13-000001-index.htm
 MITY ENTERPRISES INC --- http://www.sec.gov/Archives/edgar/data/921030/000092103013000002/0000921030-13-000002-index.htm
+MITY ENTERPRISES INC --- http://www.sec.gov/Archives/edgar/data/921030/000092103013000002/0000921030-13-000002-index.htm
 MLG Private Fund LLC --- http://www.sec.gov/Archives/edgar/data/1544555/000154455513000002/0001544555-13-000002-index.htm
 Model Fund LP --- http://www.sec.gov/Archives/edgar/data/1588325/000158832513000001/0001588325-13-000001-index.htm
 Moon Capital Management, LLC --- http://www.sec.gov/Archives/edgar/data/1410588/000141058813000003/0001410588-13-000003-index.htm
-Moon Capital Management, LLC --- http://www.sec.gov/Archives/edgar/data/1410588/000141058813000003/0001410588-13-000003-index.htm
+Moon Value Fund I, LLC --- http://www.sec.gov/Archives/edgar/data/1594330/000159433013000001/0001594330-13-000001-index.htm
 MOTOZUMA, LLC --- http://www.sec.gov/Archives/edgar/data/1585692/000158569213000001/0001585692-13-000001-index.htm
 Mountain Brook Partners, LP --- http://www.sec.gov/Archives/edgar/data/1593818/000159381813000001/0001593818-13-000001-index.htm
 MT Center Songdo, LLC --- http://www.sec.gov/Archives/edgar/data/1592802/000159280213000001/0001592802-13-000001-index.htm
@@ -399,10 +403,10 @@ Plaid for Women, Inc. --- http://www.sec.gov/Archives/edgar/data/1588805/0001588
 PLASTYC INC. --- http://www.sec.gov/Archives/edgar/data/1413056/000141305613000004/0001413056-13-000004-index.htm
 PNR Earlsboro North Joint Venture --- http://www.sec.gov/Archives/edgar/data/1580846/000158084613000002/0001580846-13-000002-index.htm
 Polish Restaurant Holdings, Inc. --- http://www.sec.gov/Archives/edgar/data/1592769/000159276113000005/0001592761-13-000005-index.htm
+Polish Restaurant Holdings, Inc. --- http://www.sec.gov/Archives/edgar/data/1592769/000159276113000005/0001592761-13-000005-index.htm
 Prodigy Shorewood Domestic Feeder REP Fund, LLC --- http://www.sec.gov/Archives/edgar/data/1592832/000159283213000002/0001592832-13-000002-index.htm
 Prodigy Shorewood Master REP Fund, LLC --- http://www.sec.gov/Archives/edgar/data/1592831/000159283113000001/0001592831-13-000001-index.htm
 Prodigy Shorewood New York REP Fund, LP --- http://www.sec.gov/Archives/edgar/data/1592833/000159283313000001/0001592833-13-000001-index.htm
-PurThread Technologies, Inc. --- http://www.sec.gov/Archives/edgar/data/1478367/000147836713000006/0001478367-13-000006-index.htm
 PurThread Technologies, Inc. --- http://www.sec.gov/Archives/edgar/data/1478367/000147836713000006/0001478367-13-000006-index.htm
 Pzena Emerging Markets Focused Value Fund (GT) a separate investment fund of Pzena Value Group Trust --- http://www.sec.gov/Archives/edgar/data/1592345/000139372513000098/0001393725-13-000098-index.htm
 QMaxx Products Group, LLC --- http://www.sec.gov/Archives/edgar/data/1587483/000158748313000001/0001587483-13-000001-index.htm
@@ -418,6 +422,7 @@ Red Duck Foods, Inc. --- http://www.sec.gov/Archives/edgar/data/1590650/00015906
 Red Shark, LLC --- http://www.sec.gov/Archives/edgar/data/1585044/000158504413000002/0001585044-13-000002-index.htm
 RegBinder, Inc. --- http://www.sec.gov/Archives/edgar/data/1581876/000158187613000003/0001581876-13-000003-index.htm
 Regency Venture Fund Maui, LLLP --- http://www.sec.gov/Archives/edgar/data/1591031/000159103113000001/0001591031-13-000001-index.htm
+Reign Development Group, LLC --- http://www.sec.gov/Archives/edgar/data/1570092/000157009213000006/0001570092-13-000006-index.htm
 Reign Development Group, LLC --- http://www.sec.gov/Archives/edgar/data/1570092/000157009213000003/0001570092-13-000003-index.htm
 Reign Development Group, LLC --- http://www.sec.gov/Archives/edgar/data/1570092/000157009213000004/0001570092-13-000004-index.htm
 Residential World Business Trust --- http://www.sec.gov/Archives/edgar/data/1500287/000150028713000003/0001500287-13-000003-index.htm
@@ -431,6 +436,7 @@ Rockland Power Partners II, LP --- http://www.sec.gov/Archives/edgar/data/158825
 Rockland Power Partners II, LP --- http://www.sec.gov/Archives/edgar/data/1588257/000158825713000001/0001588257-13-000001-index.htm
 ROIL Energy, LLC --- http://www.sec.gov/Archives/edgar/data/1590452/000159045213000001/0001590452-13-000001-index.htm
 RSF Partners VI, L.P. --- http://www.sec.gov/Archives/edgar/data/1592682/000159268213000001/0001592682-13-000001-index.htm
+RSF Strategic Partners VI, L.P. --- http://www.sec.gov/Archives/edgar/data/1593383/000159338313000001/0001593383-13-000001-index.htm
 Sagebrush Investment Partnership L P --- http://www.sec.gov/Archives/edgar/data/1341897/000134189713000001/0001341897-13-000001-index.htm
 Sand Hill Fund LLC --- http://www.sec.gov/Archives/edgar/data/1589500/000158950013000001/0001589500-13-000001-index.htm
 SARA CREEK GOLD CORP. --- http://www.sec.gov/Archives/edgar/data/1415286/000121465913006289/0001214659-13-006289-index.htm
@@ -448,9 +454,11 @@ SI Arlington Heights Memory, LLC --- http://www.sec.gov/Archives/edgar/data/1591
 SI Canyon Investor, LLC --- http://www.sec.gov/Archives/edgar/data/1592358/000159235813000001/0001592358-13-000001-index.htm
 SI GEORGETOWN MEMORY, LLC --- http://www.sec.gov/Archives/edgar/data/1592949/000159294913000001/0001592949-13-000001-index.htm
 SI HWODS INVESTOR, LLC --- http://www.sec.gov/Archives/edgar/data/1589268/000158926813000001/0001589268-13-000001-index.htm
+SI Plano Retail, LLC --- http://www.sec.gov/Archives/edgar/data/1594343/000159434313000001/0001594343-13-000001-index.htm
 Signal Point Holdings Corp. --- http://www.sec.gov/Archives/edgar/data/1560351/000156035113000001/0001560351-13-000001-index.htm
 Signal Point Holdings Corp. --- http://www.sec.gov/Archives/edgar/data/1560351/000156035113000002/0001560351-13-000002-index.htm
 Silver Creek Credit Opportunities IV Fund A, L.P. --- http://www.sec.gov/Archives/edgar/data/1587818/000158781813000001/0001587818-13-000001-index.htm
+Silver Tusk Lease Acquisition & Development Partnership LP --- http://www.sec.gov/Archives/edgar/data/1594367/000159436713000001/0001594367-13-000001-index.htm
 Simplex Value Up Trust --- http://www.sec.gov/Archives/edgar/data/1562445/000156244513000001/0001562445-13-000001-index.htm
 Simply Gum, Inc. --- http://www.sec.gov/Archives/edgar/data/1589895/000158989513000001/0001589895-13-000001-index.htm
 Solari Global, LLC --- http://www.sec.gov/Archives/edgar/data/1552414/000155241413000001/0001552414-13-000001-index.htm
@@ -476,6 +484,7 @@ Station X Inc. --- http://www.sec.gov/Archives/edgar/data/1509408/00015094081300
 SteadyServ Technologies, LLC --- http://www.sec.gov/Archives/edgar/data/1560163/000156016313000004/0001560163-13-000004-index.htm
 Steben Select Multi-Strategy Partners, L.P. --- http://www.sec.gov/Archives/edgar/data/1582538/000158253813000001/0001582538-13-000001-index.htm
 Stewardship Investments, LLC --- http://www.sec.gov/Archives/edgar/data/1589701/000158970113000003/0001589701-13-000003-index.htm
+Stewardship Investments, LLC --- http://www.sec.gov/Archives/edgar/data/1589701/000158970113000003/0001589701-13-000003-index.htm
 Stonerise Capital Limited Partnership --- http://www.sec.gov/Archives/edgar/data/1590291/000159029113000001/0001590291-13-000001-index.htm
 StoryPress Inc --- http://www.sec.gov/Archives/edgar/data/1557640/000155764013000003/0001557640-13-000003-index.htm
 Strait Minerals Inc. --- http://www.sec.gov/Archives/edgar/data/1587237/000158723713000001/0001587237-13-000001-index.htm
@@ -483,7 +492,6 @@ Stranded Solutions LLC --- http://www.sec.gov/Archives/edgar/data/1588578/000158
 Strategic Diversified Real Estate Holdings, LLC --- http://www.sec.gov/Archives/edgar/data/1569872/000156987213000004/0001569872-13-000004-index.htm
 Strategic Diversified Real Estate Holdings, LLC --- http://www.sec.gov/Archives/edgar/data/1569872/000156987213000003/0001569872-13-000003-index.htm
 Strategic Environmental & Energy Resources, Inc. --- http://www.sec.gov/Archives/edgar/data/1576197/000138713113004031/0001387131-13-004031-index.htm
-Strategic Global Bond Fund --- http://www.sec.gov/Archives/edgar/data/1587662/000158766213000001/0001587662-13-000001-index.htm
 Strategic Global Bond Fund --- http://www.sec.gov/Archives/edgar/data/1587662/000158766213000001/0001587662-13-000001-index.htm
 Strategic Non- Dollar Bond Fund --- http://www.sec.gov/Archives/edgar/data/1354158/000135416013000002/0001354160-13-000002-index.htm
 Strategic Preservation Fund I LP --- http://www.sec.gov/Archives/edgar/data/1588351/000093583613000494/0000935836-13-000494-index.htm
@@ -506,6 +514,7 @@ TEDNOLOGIES, INC. --- http://www.sec.gov/Archives/edgar/data/1591277/00015912771
 Telepath Data, Inc. --- http://www.sec.gov/Archives/edgar/data/1589639/000158963913000001/0001589639-13-000001-index.htm
 Teraphysics Corp --- http://www.sec.gov/Archives/edgar/data/1318588/000131858813000004/0001318588-13-000004-index.htm
 Theory Entertainment LLC --- http://www.sec.gov/Archives/edgar/data/1589878/000158987813000001/0001589878-13-000001-index.htm
+Thermal Imaging Radar, LLC --- http://www.sec.gov/Archives/edgar/data/1557005/000155700513000005/0001557005-13-000005-index.htm
 Thermal Imaging Radar, LLC --- http://www.sec.gov/Archives/edgar/data/1557005/000155700513000004/0001557005-13-000004-index.htm
 ThermalCore, Inc. --- http://www.sec.gov/Archives/edgar/data/1593118/000159311813000001/0001593118-13-000001-index.htm
 THINK Communications, LLC --- http://www.sec.gov/Archives/edgar/data/1588029/000158802913000001/0001588029-13-000001-index.htm
@@ -556,6 +565,7 @@ WI-MM CORP --- http://www.sec.gov/Archives/edgar/data/1590725/000159072513000002
 Wilshire Gun, LLC --- http://www.sec.gov/Archives/edgar/data/1592610/000159261013000001/0001592610-13-000001-index.htm
 WLR Industries Inc. --- http://www.sec.gov/Archives/edgar/data/1516154/000151615413000001/0001516154-13-000001-index.htm
 Woodbine Ridge Joint Venture --- http://www.sec.gov/Archives/edgar/data/1579414/000157941413000002/0001579414-13-000002-index.htm
+Woodbine Ridge Joint Venture --- http://www.sec.gov/Archives/edgar/data/1579414/000157941413000002/0001579414-13-000002-index.htm
 World Business Lenders, LLC --- http://www.sec.gov/Archives/edgar/data/1537021/000153702113000001/0001537021-13-000001-index.htm
 Worldwide Media Corp --- http://www.sec.gov/Archives/edgar/data/1580192/000158019213000002/0001580192-13-000002-index.htm
 X-Factor Communications Holdings, Inc. --- http://www.sec.gov/Archives/edgar/data/1517653/000121390013006531/0001213900-13-006531-index.htm
@@ -564,7 +574,6 @@ XEnergy Technologies, LLC --- http://www.sec.gov/Archives/edgar/data/1587713/000
 Yannix Fund Ltd. --- http://www.sec.gov/Archives/edgar/data/1534304/000090266413003607/0000902664-13-003607-index.htm
 YAVA TECHNOLOGIES INC --- http://www.sec.gov/Archives/edgar/data/1217693/000121769313000001/0001217693-13-000001-index.htm
 Yiliame Corp --- http://www.sec.gov/Archives/edgar/data/1563635/000156363513000005/0001563635-13-000005-index.htm
-Yorktown University --- http://www.sec.gov/Archives/edgar/data/1587998/000158799813000001/0001587998-13-000001-index.htm
 Yorktown University --- http://www.sec.gov/Archives/edgar/data/1587998/000158799813000001/0001587998-13-000001-index.htm
 Z Advanced Computing, Inc. --- http://www.sec.gov/Archives/edgar/data/1593226/000159322613000001/0001593226-13-000001-index.htm
 Zanzibar & Finnish Development Cooperation Jet Line Ltd --- http://www.sec.gov/Archives/edgar/data/1592761/000159276113000002/0001592761-13-000002-index.htm

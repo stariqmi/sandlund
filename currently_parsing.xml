@@ -1,23 +1,25 @@
 <primaryIssuer>
-        <cik>0001507887</cik>
-        <entityName>Zumigo, Inc.</entityName>
+        <cik>0001594367</cik>
+        <entityName>Silver Tusk Lease Acquisition &amp; Development Partnership LP</entityName>
         <issuerAddress>
-            <street1>2001 GATEWAY PLACE, SUITE 680W</street1>
-            <city>SAN JOSE</city>
-            <stateOrCountry>CA</stateOrCountry>
-            <stateOrCountryDescription>CALIFORNIA</stateOrCountryDescription>
-            <zipCode>95110</zipCode>
+            <street1>433 E. LAS COLINAS BLVD.</street1>
+            <street2>SUITE 805</street2>
+            <city>IRVING</city>
+            <stateOrCountry>TX</stateOrCountry>
+            <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+            <zipCode>75039</zipCode>
         </issuerAddress>
-        <issuerPhoneNumber>408-858-1951</issuerPhoneNumber>
-        <jurisdictionOfInc>CALIFORNIA</jurisdictionOfInc>
+        <issuerPhoneNumber>972-506-0909</issuerPhoneNumber>
+        <jurisdictionOfInc>TEXAS</jurisdictionOfInc>
         <issuerPreviousNameList>
             <value>None</value>
         </issuerPreviousNameList>
         <edgarPreviousNameList>
             <value>None</value>
         </edgarPreviousNameList>
-        <entityType>Corporation</entityType>
+        <entityType>Limited Partnership</entityType>
         <yearOfInc>
-            <overFiveYears>true</overFiveYears>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2013</value>
         </yearOfInc>
     </primaryIssuer>
