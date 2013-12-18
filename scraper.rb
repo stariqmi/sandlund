@@ -4,11 +4,13 @@ require 'yaml'
 require_relative 'submission'
 
 mechanic = Mechanize.new	# Create new Mechanize object
+
 # Proxy
-mechanic = Mechanize.new do|a|
-  a.set_proxy('proxy', 8080, 'i840192', 'hckg:stm18092')
-  a.user_agent_alias = "Windows IE 6"
-end
+# mechanic = Mechanize.new do|a|
+#   a.set_proxy('proxy', 8080, 'i840192', 'hckg:stm18092')
+#   a.user_agent_alias = "Windows IE 6"
+# end
+
 # Navigate to the source main page
 mechanic.get "http://www.sec.gov/cgi-bin/srch-edgar?text=06c&first=2013&last=2013"
 puts mechanic.page.title
